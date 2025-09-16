@@ -7,7 +7,7 @@
     <author name="Seu Nome" email="seu@email.com" website="https://example.com"/>
     <min-api-version>1.0</min-api-version>
     <source-location>
-  <url>http://localhost:8081/</url>
+  <url>https://labs-psi-five.vercel.app/</url>
     </source-location>
     <icon>iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/w8AAgMBAp6Q2VwAAAAASUVORK5CYII=</icon>
   </dashboard-extension>
