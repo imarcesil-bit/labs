@@ -1,0 +1,15 @@
+{
+  "name": "tableau-ola-mundo",
+  "version": "1.0.0",
+  "description": "Extensão Olá Mundo para Tableau Desktop usando Node.js e Tableau Extensions API.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "selfsigned": "^3.0.1"
+  }
+}

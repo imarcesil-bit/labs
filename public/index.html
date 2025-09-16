@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Olá Mundo Tableau Extension</title>
+  <script src="https://cdn.jsdelivr.net/npm/tableau-api/dist/tableau.extensions.1.latest.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      tableau.extensions.initializeAsync().then(function() {
+        document.getElementById('msg').textContent = 'Olá Mundo do Tableau!';
+      }, function(err) {
+        document.getElementById('msg').textContent = 'Erro ao inicializar a extensão: ' + err.message;
+      });
+    });
+  </script>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+    #msg { font-size: 2em; color: #2d72d9; }
+  </style>
+</head>
+<body>
+  <div id="msg">Carregando...</div>
+</body>
+</html>
